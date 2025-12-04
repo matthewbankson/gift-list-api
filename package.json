@@ -1,0 +1,29 @@
+{
+  "name": "gift-list-api",
+  "version": "1.0.0",
+  "description": "Gift tracking API",
+  "homepage": "https://github.com/matthewbankson/gift-list-api#readme",
+  "bugs": {
+    "url": "https://github.com/matthewbankson/gift-list-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewbankson/gift-list-api.git"
+  },
+  "license": "ISC",
+  "author": "matthewbankson",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "fastify": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "fastify-tsconfig": "^3.0.0",
+    "typescript": "^5.9.3"
+  }
+}
