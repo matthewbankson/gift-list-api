@@ -20,7 +20,10 @@
 		"lint": "biome check",
 		"lint:fix": "biome check --write",
 		"lint:fix:force": "biome check --write --unsafe",
-		"format": "biome format --write"
+		"format": "biome format --write",
+		"db:generate": "npx drizzle-kit generate",
+		"db:push": "npx drizzle-kit push",
+		"db:studio": "npx drizzle-kit studio"
 	},
 	"dependencies": {
 		"dotenv": "^17.2.3",
@@ -32,7 +35,7 @@
 		"@biomejs/biome": "2.3.8",
 		"@types/node": "^24.10.1",
 		"@types/pg": "^8.15.6",
-		"drizzle-kit": "^0.18.1",
+		"drizzle-kit": "^0.31.8",
 		"fastify-tsconfig": "^3.0.0",
 		"tsx": "^4.21.0",
 		"typescript": "^5.9.3"
